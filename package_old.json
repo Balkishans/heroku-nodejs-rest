@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-rest-api",
+  "version": "1.0.0",
+  "description": "A Nodejs demo Rest API",
+   "main": "server.js",
+   "keywords": [
+    "nodejs",
+    "restful",
+    "api",
+    "expressjs"
+  ],
+  "author": "Balkishan Sankhla",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "gulp": "^3.9.0",
+    "lodash": "^4.0.1",
+    "morgan": "^1.6.1"
+  }
+}
