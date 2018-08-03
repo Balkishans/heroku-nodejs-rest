@@ -1,7 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var morgan = require('morgan');
-var eventsRouter = require('./routers/events-router');
+var eventsRouter = require('./server/routers/events-router');
 
 var app = express();
 var port = 3000;
@@ -23,6 +23,9 @@ app.use(bodyParser.json());
 
 app.use('/accounts', eventsRouter);
 
-app.listen(port);
+//app.listen(port);
+app.listen(process.env.PORT||3000, function(){
+    console.log('Your node js server is running');
+});
 console.log("Running app on port port. Visit: http://localhost:" + port + "/");
 
