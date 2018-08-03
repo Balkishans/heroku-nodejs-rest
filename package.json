@@ -24,7 +24,7 @@
     "url": "https://github.com/alex-arriaga/node-js-rest-api/issues"
   },
   "homepage": "https://github.com/alex-arriaga/node-js-rest-api#readme",
-  "Dependencies": {
+  "devdependencies": {
     "body-parser": "^1.14.2",
     "express": "^4.13.4",
     "gulp": "^3.9.0",
